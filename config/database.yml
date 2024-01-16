@@ -15,5 +15,4 @@ test:
   database: <%= ENV['DB_NAME_TEST'] %>
 
 production:
-  <<: *default
   url: <%= ENV['DATABASE_URL'] %>
