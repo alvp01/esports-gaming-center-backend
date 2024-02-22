@@ -30,7 +30,7 @@
 
 # 📖🚗 Esport Gaming Center App <a name="about-project"></a>
 This project involves developing an eSports reservation system with two distinct parts: the Backend, developed using Ruby on Rails, and the Frontend, built with React. This system aims to cater to eSports players, allowing them to reserve games, manage reservations, and access a catalog of available games.
- Click on the link[https://github.com/cancelei/EsportGamingCenter_frontend] to navigate to the backend of our APP.
+ Click on the [link](https://github.com/alvp01/esport-gaming-center-frontend) to navigate to the backend of our APP.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
