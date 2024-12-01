@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # Rutas para Devise, manejo de sesiones y registros
   devise_for :users, controllers: {
     registrations: 'registrations', # Controlador personalizado para el registro
-    sessions: 'sessions'           # Controlador personalizado para la sesión
+    sessions: 'sessions' # Controlador personalizado para la sesión
   }
 
   # Rutas estándar para juegos y reservas
@@ -13,7 +13,7 @@ Rails.application.routes.draw do
 
   # Rutas para la API (posiblemente para el frontend)
   namespace :api do
-    resources :reservations, only: [:index, :show, :create, :update, :destroy]
-    resources :games, only: [:index, :show, :create, :update, :destroy]
+    resources :reservations, only: %i[index show create update destroy]
+    resources :games, only: %i[index show create update destroy]
   end
 end
